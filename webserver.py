@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from adafruit_motorkit import MotorKit
 import time
 
-app = Flask(__name)
+app = Flask(__name__)
 
 # Create a dictionary to store the robot's current state eg. stopped
 robot_state = "stopped"
